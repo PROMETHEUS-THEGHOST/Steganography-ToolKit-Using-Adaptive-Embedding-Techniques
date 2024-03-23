@@ -3,6 +3,9 @@
 
 This project mainly showcases the adaptive algorithms to hide text message in four different cover file **Text, Image, Audio, Video** and transfer it to the receiver who can extract the hidden message from these files with the same tools.
 
+<img width="851" alt="image" src="https://github.com/PROMETHEUS-THEGHOST/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques/assets/119421107/d7380387-2a27-4f9c-b755-953de4200fc0">
+
+
 # **Text Steganography :**
 We hide text in a text file using, ZWCs.
 ZWCs-ZWCs- In Unicode, there are specific zero-width characters (ZWC) that are used to control special entities such as Zero Width Non Joiner (e.g., ZWNJ separates two letters in special languages) and POP directional, which have no written symbol or width in digital text.
