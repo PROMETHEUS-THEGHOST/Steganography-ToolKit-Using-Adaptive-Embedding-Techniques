@@ -3,7 +3,8 @@
 
 This project mainly showcases the adaptive algorithms to hide text message in four different cover file **Text, Image, Audio, Video** and transfer it to the receiver who can extract the hidden message from these files with the same tools.
 
-<img width="851" alt="image" src="https://github.com/PROMETHEUS-THEGHOST/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques/assets/119421107/d7380387-2a27-4f9c-b755-953de4200fc0">
+
+![image](https://github.com/VAISAKH-SRIRAM/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques/assets/119421107/fd904a07-3365-4953-8597-fc1ec1da408a)
 
 
 # **Text Steganography :**
