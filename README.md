@@ -35,7 +35,7 @@ In video steganography we have used combination of cryptography and Steganograph
 
 **NOTE :**  *GIT is required in your system to clone this repo if your system doesn't have it please install it from here :  [Git Downloads for Windows](https://git-scm.com/download/win)*
   ```bash
-  [gh repo clone VAISAKH-SRIRAM/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques](https://github.com/VAISAKH-SRIRAM/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques.git)
+  git clone https://github.com/VAISAKH-SRIRAM/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques.git
   ```
  **THEN INSTALL THE CODE REQUIREMENTS BY RUNNING THIS COMMAND IN THE TERMINAL**
   ```bash
