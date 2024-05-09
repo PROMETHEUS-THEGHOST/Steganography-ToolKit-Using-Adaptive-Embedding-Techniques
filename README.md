@@ -32,7 +32,8 @@ In video steganography we have used combination of cryptography and Steganograph
 ### Procedure
 
 **OPEN TERMINAL AND PASTE THIS COMMAND ON IT AND CLONE MY REPOSITORY**
-**NOTE :**  *GIT is required in your system to clone this repo if your system dont have it please install it from here :  [Git Downloads for Windows](https://git-scm.com/download/win)*
+
+**NOTE :**  *GIT is required in your system to clone this repo if your system doesn't have it please install it from here :  [Git Downloads for Windows](https://git-scm.com/download/win)*
   ```bash
   gh repo clone VAISAKH-SRIRAM/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques
   ```
@@ -42,6 +43,6 @@ In video steganography we have used combination of cryptography and Steganograph
   ```
   **THEN RUN OUR MAIN CODE IN THE TERMINAL** *[ OR IN VS CODE ]*
   ```bash
-  conda activate gest
+  python corrcode.py
   ```
   
