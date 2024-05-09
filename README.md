@@ -28,3 +28,51 @@ In video steganography we have used combination of cryptography and Steganograph
 * KSA(Key-Scheduling Algorithm)- A list S of length 256 is made and the entries of S are set equal to the values from 0 to 255 in ascending order. We ask user for a key and convert it to its equivalent ascii code. S[] is a permutation of 0,1,2....255, now a variable j is assigned as j=(j+S[i]+key[i%key_length) mod 256 and swap S(i) with S(j) and accordingly we get new permutation for the whole keystream according to the key.
 * PRGA(Pseudo random generation Algorithm (Stream Generation)) - Now we take input length of plaintext and initiate loop to generate a keystream byte of equal length. For this we initiate i=0, j=0 now increment i by 1 and mod with 256. Now we add S[i] to j amd mod of it with 256 ,again swap the values. At last step take store keystreambytes which matches as S[(S[i]+S[j]) mod 256] to finally get key stream of length same as plaintext.
 * Now we xor the plaintext with keystream to get the final cipher.
+
+### Procedure
+  ```bash
+  git clone gh repo clone PROMETHEUS-THEGHOST/AI-virtual-cursor-
+  ```
+  Step 1: 
+  ```bash
+  conda create --name gest python=3.8.5
+  ```
+  
+  Step 2:
+  ```bash
+  conda activate gest
+  ```
+  
+  Step 3:
+  ```bash
+  pip install -r requirements.txt
+  ```
+  
+  Step 4:
+  ```bash 
+  conda install PyAudio
+  ```
+  ```bash 
+  conda install pywin32
+  ```
+  
+  Step 5:
+  ``` 
+  cd to the GitHub Repo till src folder
+  ```
+  Command may look like: `cd C:\Users\.....\Gesture-Controlled-Virtual-Mouse\src`
+  
+  Step 6:
+  
+  For running Voice Assistant:
+  ```bash 
+  python Proton.py
+  ```
+  ( You can enable Gesture Recognition by using the command "Proton Launch Gesture Recognition" )
+  
+  Or to run only Gesture Recognition without the voice assisstant:
+  
+  Uncomment last 2 lines of Code in the file `Gesture_Controller.py`
+  ```bash 
+  python Gesture_Controller.py
+  ```
