@@ -31,16 +31,16 @@ In video steganography we have used combination of cryptography and Steganograph
 
 ### Procedure
 
-*OPEN TERMINAL AND PASTE THIS COMMAND ON IT AND CLONE MY REPOSITORY*
+**OPEN TERMINAL AND PASTE THIS COMMAND ON IT AND CLONE MY REPOSITORY**
+**NOTE :**  *GIT is required in your system to clone this repo if your system dont have it please install it from here :  [Git Downloads for Windows](https://git-scm.com/download/win)*
   ```bash
   gh repo clone VAISAKH-SRIRAM/Steganography-ToolKit-Using-Adaptive-Embedding-Techniques
   ```
-  Step 1: *THEN INSTALL THE CODE REQUIREMENTS BY RUNNING THIS COMMAND IN THE TERMINAL*
+ **THEN INSTALL THE CODE REQUIREMENTS BY RUNNING THIS COMMAND IN THE TERMINAL**
   ```bash
-  conda create --name gest python=3.8.5
+  pip install -r requirements.txt
   ```
-  
-  Step 2: *THEN RUN OUR MAIN CODE IN THE TERMINAL* [ OR IN VS CODE ]
+  **THEN RUN OUR MAIN CODE IN THE TERMINAL** *[ OR IN VS CODE ]*
   ```bash
   conda activate gest
   ```
